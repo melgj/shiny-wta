@@ -59,6 +59,7 @@ probP1 <- function(p1_rtng, p2_rtng){
 
 ui <- navbarPage("WTA Head-to-Head",
                  theme = shinytheme("cerulean"),
+                 footer = "Match data sourced from Jeff Sackmann / Tennis Abstract https://github.com/JeffSackmann",
                  tabPanel(title = "H2H Results",
                           sidebarLayout(
                               sidebarPanel(
