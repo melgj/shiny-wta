@@ -13,7 +13,7 @@ wtaMatches <- read_csv("wta_shiny_matches_2021-04-21.csv", col_names = TRUE)
 
 wtaHistory
 wtaRatings$Rating <- round(wtaRatings$Rating, 2)
-wtaRatings$Rating
+
 
 wtaMatches$tourney_date <- lubridate::ymd(wtaMatches$tourney_date)
 wtaMatches$Year <- lubridate::year(wtaMatches$tourney_date)
