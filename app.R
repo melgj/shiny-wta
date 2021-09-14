@@ -7,9 +7,9 @@ library(reshape2)
 library(ggplot2)
 
 
-wtaHistory <- read_csv("wta_shiny_timeline_2021-09-08.csv", col_names = T)
-wtaRatings <- read_csv("wta_SR_ratings_2021-09-08.csv", col_names = T)
-wtaMatches <- read_csv("wta_shiny_matches_2021-09-08.csv", col_names = TRUE)
+wtaHistory <- read_csv("wta_shiny_timeline_2021-09-14.csv", col_names = T)
+wtaRatings <- read_csv("wta_SR_ratings_2021-09-14.csv", col_names = T)
+wtaMatches <- read_csv("wta_shiny_matches_2021-09-14.csv", col_names = TRUE)
 
 wtaHistory
 wtaRatings$Rating <- round(wtaRatings$Rating, 2)
